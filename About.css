@@ -1,0 +1,55 @@
+body{
+	height:1176px;
+	width:1330px;
+	background-image: url("gg.jpg");
+	background-size: cover;
+	background-position: center;
+	opacity: 100%;
+	border-color: yellow;
+	border-style: solid;
+	border-radius: 1px;
+	border-size: 1px; 
+}
+
+
+
+
+
+.links{
+	
+	width: 75%;
+	height:11%;
+	background-color: rgba(0,0,0,.2);
+	position: relative;
+	top: -255px;
+	left: 311px;
+	padding: 3px 10px;
+}    
+
+
+.links ul{
+ text-align: center;
+}
+
+.links ul li{
+ list-style: none;
+ display: inline-block;
+}
+
+.links ul li a{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+padding: 25px;
+ transition:cubic-bezier(1,-0.13, 0, 1.46)
+}
+
+.links ul li a:hover{
+background-color: #211b4385;
+padding: 25px;
+}
