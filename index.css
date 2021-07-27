@@ -1,0 +1,85 @@
+body{
+	height: 1000px;
+	width: 1330px;
+	background-image: url("gg.jpg");
+	background-size: cover;
+	background-position: center;
+	opacity: 100%;
+	
+}
+.links{
+	
+	width: 75%;
+	height:11%;
+	background-color: rgba(0,0,0,.2);
+	position: relative;
+	top: -215px;
+	left: 309px;
+	padding: 3px 10px;
+}    
+
+
+.links ul{
+ text-align: center;
+}
+
+.links ul li{
+ list-style: none;
+ display: inline-block;
+}
+
+.links ul li a{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+padding: 25px;
+ transition:cubic-bezier(1,-0.13, 0, 1.46)
+}
+
+.links ul li a:hover{
+background-color: #211b4385;
+padding: 25px;
+}
+
+img{
+	width:282px;
+	height: 273px;
+	position: relative;
+	top: 28px;
+	left:14px;
+	padding:6px 10px;
+}
+
+.links ul li b {
+    position: relative;
+    font: 3em 'Gurajada', serif;
+    margin-right: 10em;
+    z-index: 50;
+    color: #FFFFFF;
+    left: 0.7em;
+    bottom: 0.7em;
+    background: none;
+    padding: 1em;
+    top: 222px;
+    opacity: 1;
+    max-width: 20%;
+}
+
+.slider{
+	width:1500px;
+	height: 1050px;
+	border:1px black solid;
+}
+.footer{
+	width:282px;
+	height: 273px;
+	position: relative;
+	top: 148px;
+    left: 480px;
+    font-weight:20;
+    font-size:67;
